@@ -73,14 +73,14 @@
 <h4>Introduction of Data Structure</h4>
 <h5>What is a data structure ??</h5>
 ==> 
-An extremely important part of the programming language.
-1) Data Structure are always of storing data in a efficient manner and accessing them as and when required.
+An extremely important part of the programming language.<br />
+1) Data Structure are always of storing data in a efficient manner and accessing them as and when required.<br />
 row text:-
 
-    DS --> storing data --> in --> efficient manner and accessing--> when --> required.
+    DS --> storing data --> in --> efficient manner and accessing--> when --> required.<br />
 
-2) Lots of variables of data structures across programming language.
-3) Data Storage, Organization, accessibility and efficiency are at play all the time.
+2) Lots of variables of data structures across programming language.<br />
+3) Data Storage, Organization, accessibility and efficiency are at play all the time.<br />
 
     Data Storage --> data organisation --> access data --> efficiency == Data Structure
 
@@ -145,11 +145,11 @@ row text:-
 
 <h5>1) Builti-in Data Structures :</h5>
 <h6>1) List:-</h6>
-1. List are used to store data in a sequential manner.
-2. Negative indexing and positive indexing supported.
-3. Lists are supported indexing and slicing structure.
-4. List is an ordered collection of element enclosed within [].
-5. List are mutable.(change is supported, add, remove, and update)
+1. List are used to store data in a sequential manner.<br />
+2. Negative indexing and positive indexing supported.<br />
+3. Lists are supported indexing and slicing structure.<br />
+4. List is an ordered collection of element enclosed within [].<br />
+5. List are mutable.(change is supported, add, remove, and update)<br />
     
 ex.
 
@@ -160,11 +160,11 @@ o/p:
         [1, 'a', False, 'b', True]
 
 <h6>2) Dictionary:-</h6>
-1. Dictionary are one important data type in python.
-2. Data is stored in key:value pairs in the case of dictionaries.
-3. Pairs can be added, accessed and deleted as needed.
-4. Dictionary is an unordered collection of key-value pairs enclosed with {}.
-5. Dictionary are mutable.
+1. Dictionary are one important data type in python.<br />
+2. Data is stored in key:value pairs in the case of dictionaries.<br />
+3. Pairs can be added, accessed and deleted as needed.<br />
+4. Dictionary is an unordered collection of key-value pairs enclosed with {}.<br />
+5. Dictionary are mutable.<br />
 
 ex.
     
@@ -191,17 +191,12 @@ o/p:
     dict_keys(['mango', 'apple', 'orange', 'guava'])
 
 <h6>3)Tuple :-</h6>
-1. Tuples are most used data structure in python.
-
-2. works similar to that of list but this is immutable.
-
-3. so, data one entered into a tuple connot be changed.
-
-4. Tuple is an ordered collection of element enclosed within()
-
-5. Tuple are immutable.
-
-6. Heterogeneous collection of Data(Various type of data we can store in Tuple).
+1. Tuples are most used data structure in python.<br />
+2. works similar to that of list but this is immutable.<br />
+3. so, data one entered into a tuple connot be changed.<br />
+4. Tuple is an ordered collection of element enclosed within().<br />
+5. Tuple are immutable.<br />
+6. Heterogeneous collection of Data(Various type of data we can store in Tuple).<br />
 
 ex.
     
@@ -220,7 +215,7 @@ o/p:
     (1, "a", True, "b", 23.0)
 
 <h6>4)Set :-</h6>
-1. Sets are collection of unordered unique element.
-2. Every data element in set must be unique.
-3. The operations are similar to the sets you might.
-4. enclosed with {}
+1. Sets are collection of unordered unique element.<br />
+2. Every data element in set must be unique.<br />
+3. The operations are similar to the sets you might.<br />
+4. enclosed with {}.<br />
