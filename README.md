@@ -85,6 +85,7 @@ row text:-
     Data Storage --> data organisation --> access data --> efficiency == Data Structure
 
 <h5>Types of data structure</h5>
+<h6>There are 2 main Types:-</h6>
 <table>
     <tr>
         <th>1</th>
@@ -94,8 +95,8 @@ row text:-
         <th>2</th>
         <th>User-define data structure</th>
     </tr>
-</table>>
-<h6>There are 2 main Types:-</h6>
+</table>
+
 <table>
     <tr>
         <th>Sr. No</th>
@@ -118,3 +119,103 @@ row text:-
         <td>Set</td>
     </tr>
 </table>
+
+<table>
+    <tr>
+        <th>Sr. No</th>
+        <th>User-define data structure</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Stack</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Queue</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Tree</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Graph</td>
+    </tr>
+</table>
+
+<h5>1) Builti-in Data Structures :</h5>
+<h6>1) List:-</h6>
+1. List are used to store data in a sequential manner.
+2. Negative indexing and positive indexing supported.
+3. Lists are supported indexing and slicing structure.
+4. List is an ordered collection of element enclosed within [].
+5. List are mutable.(change is supported, add, remove, and update)
+    
+ex.
+
+    L1 = [1, "a", False, "b", True]
+    
+o/p:
+
+        [1, 'a', False, 'b', True]
+
+<h6>2) Dictionary:-</h6>
+1. Dictionary are one important data type in python.
+2. Data is stored in key:value pairs in the case of dictionaries.
+3. Pairs can be added, accessed and deleted as needed.
+4. Dictionary is an unordered collection of key-value pairs enclosed with {}.
+5. Dictionary are mutable.
+
+ex.
+    
+    dict_item = {'first':'apple', 'second':'Ball'}
+
+o/p:
+
+    {'first':'apple','second':'ball'}
+
+ex.
+
+    d1 = {"mango": 45, "apple": 30, "orange": 77, "guava": 125}
+
+o/p:
+
+    {"mango": 45, "apple": 30, "orange": 77, "guava": 125}
+
+ex.
+
+    d1.keys()
+
+o/p:
+
+    dict_keys(['mango', 'apple', 'orange', 'guava'])
+
+<h6>3)Tuple :-</h6>
+1. Tuples are most used data structure in python.
+2. works similar to that of list but this is immutable.
+3. so, data one entered into a tuple connot be changed.
+4. Tuple is an ordered collection of element enclosed within()
+5. Tuple are immutable.
+6. Heterogeneous collection of Data(Various type of data we can store in Tuple).
+
+ex.
+    
+    sample_tuple = (1, 3, 2)
+
+o/p:
+
+    (1, 3, 2)
+
+ex.
+    
+    tup1 = (1, "a", True, "b", 23.0)
+
+o/p:
+
+    (1, "a", True, "b", 23.0)
+
+<h6>4)Set :-</h6>
+1. Sets are collection of unordered unique element.
+2. Every data element in set must be unique.
+3. The operations are similar to the sets you might.
+4. enclosed with {}
