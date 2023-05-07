@@ -76,8 +76,7 @@
 An extremely important part of the programming language.
 1) Data Structure are always of storing data in a efficient manner and accessing them as and when required.
 row text:-
-
-    DS --> storing data --> in --> efficient manner and accessing--> when --> required.
+    _DS --> storing data --> in --> efficient manner and accessing--> when --> required.
 
 2) Lots of variables of data structures across programming language.
 3) Data Storage, Organization, accessibility and efficiency are at play all the time.
