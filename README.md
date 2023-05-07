@@ -81,9 +81,8 @@ row text:-
 
 2) Lots of variables of data structures across programming language.
 3) Data Storage, Organization, accessibility and efficiency are at play all the time.
- 
 
-Data Storage --> data organisation --> access data --> efficiency == Data Structure
+    Data Storage --> data organisation --> access data --> efficiency == Data Structure
 
 <h5>Types of data structure</h5>
 <table>
