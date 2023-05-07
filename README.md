@@ -192,10 +192,15 @@ o/p:
 
 <h6>3)Tuple :-</h6>
 1. Tuples are most used data structure in python.
+
 2. works similar to that of list but this is immutable.
+
 3. so, data one entered into a tuple connot be changed.
+
 4. Tuple is an ordered collection of element enclosed within()
+
 5. Tuple are immutable.
+
 6. Heterogeneous collection of Data(Various type of data we can store in Tuple).
 
 ex.
