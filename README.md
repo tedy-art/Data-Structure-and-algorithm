@@ -101,44 +101,26 @@ row text:-
     <tr>
         <th>Sr. No</th>
         <th>Built-in data structure</th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>List</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>Dictionary</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>Tuple</td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>Set</td>
-    </tr>
-</table>
-
-<table>
-    <tr>
-        <th>Sr. No</th>
         <th>User-define data structure</th>
     </tr>
     <tr>
         <td>1</td>
+        <td>List</td>
         <td>Stack</td>
     </tr>
     <tr>
         <td>2</td>
+        <td>Dictionary</td>
         <td>Queue</td>
     </tr>
     <tr>
         <td>3</td>
+        <td>Tuple</td>
         <td>Tree</td>
     </tr>
     <tr>
         <td>4</td>
+        <td>Set</td>
         <td>Graph</td>
     </tr>
 </table>
