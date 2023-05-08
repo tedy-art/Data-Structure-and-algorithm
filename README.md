@@ -201,3 +201,100 @@ o/p:
 2. Every data element in set must be unique.<br />
 3. The operations are similar to the sets you might.<br />
 4. enclosed with {}.<br />
+
+
+<h5>Array Data Structure :-</h5>
+<h6>What is array??</h6>
+1. Linear Data structure<br />
+2. Contiguous memory locations<br />
+3. Access elements randomly<br />
+4. Homogeneous elements i.e. similar elements.<br />
+
+Ex.<br />
+
+    cars_arr = ["ford", "volvo", "BMW"]
+
+indexing -  "ford" = 0
+            "Volvo" = 1
+            "BMW" = 2
+
+access element :<br />
+
+    x = cars_arr[1]
+o/p:<br />
+    
+    'Volvo'
+
+<h6>Applications of array : </h6>
+1. Storing information - linear fashion.
+2. Suitable for applications that require frequent searching.
+
+<h6>Declaration an initialization of arrays : </h6>
+1. Array declaration:
+    * Datatypes varname[size];
+2. Can also do declaration and initialization at once:
+    * Datatypes varname[] = {ele1, ele2, ele3};
+   
+ex.
+
+<table>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+</table>
+
+* 0 to 4 indexing start from 
+* 1 to 5 are storing data/element
+
+<table>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+    <tr>
+        <td>100</td>
+        <td>104</td>
+        <td>108</td>
+        <td>112</td>
+        <td>116</td>
+    </tr>
+</table>
+
+* 100 to 116 are address of element which are store in arrays
+
+<h6>2- Dimensional Array -</h6>
+1. 2D can be related to a table or matrix.
+2. Elements are stored one after another i.e. one 1D arrays inside other.
+3. Two subscripts or indices are used, one row and one colomn.
+4. Dimensions depends upn the number of subscripts used.
+![img.png](img.png) 
+
+<h6>Array Implementation : </h6> 
+1. Create a one-dimensional integer array and insert number to the maximum size provided until end of the array. Access the numbers inserted and then display the same as output???
+
+
+    print("How many elements to store inside the array", end="")
+    num = input()
+    arr = []
+    print("\n Enter ",num, "element :", end="")
+    num = int(num)
+    for i in range(num):
+        element = input()
+        arr.append(element)
+    print("\nThe array elements are")
+    for i in range(num):
+        print(arr[i], end=" ")
+
+o/p:
+
+    How many elements to store inside the array :3
+
+    Enter  3 element :2
+    5
+    1
+
+    The array elements are
+    2 5 1 
