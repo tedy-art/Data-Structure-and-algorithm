@@ -313,10 +313,12 @@ o/p:
 
 o/p:
 
+
     Input number of rows : 2
     Input number of cols : 3
     [[0, 0, 0], [0, 0, 0]]
     [[0, 0, 0], [0, 1, 2]]
+
 
 3. Write a program that initialize a 2-D arrays of size m x n with the value 0,
 and then sets the diagonal elements to the value 1
@@ -328,6 +330,8 @@ and then sets the diagonal elements to the value 1
     for i in range(min(m, n)):
         arr[i][i] = 1
     print(arr)
+
+
 o/p:
 
     [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
