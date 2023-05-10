@@ -302,36 +302,35 @@ o/p:
 2. Create a two-Dimentional integer array and insert numbers to the maximum size provided until the end of the array. Access the numbers inserted and then display the same as output.<br />
     
 
-    r_num = int(input("Input number of rows : "))
-    c_num = int(input("Input number of cols : "))
-    twod_arr = [[0 for col in range(c_num)] for row in range(r_num)]
+        r_num = int(input("Input number of rows : "))
+        c_num = int(input("Input number of cols : "))
+        twod_arr = [[0 for col in range(c_num)] for row in range(r_num)]
 
-    for row in range(r_num):
-        for col in range(c_num):
-            twod_arr[row][col] = row * col
-        print(twod_arr)
+        for row in range(r_num):
+            for col in range(c_num):
+                twod_arr[row][col] = row * col
+            print(twod_arr)
 
 o/p:
 
-
-    Input number of rows : 2
-    Input number of cols : 3
-    [[0, 0, 0], [0, 0, 0]]
-    [[0, 0, 0], [0, 1, 2]]
+        Input number of rows : 2
+        Input number of cols : 3
+        [[0, 0, 0], [0, 0, 0]]
+        [[0, 0, 0], [0, 1, 2]]
 
 
 3. Write a program that initialize a 2-D arrays of size m x n with the value 0,
 and then sets the diagonal elements to the value 1
 
-'''
-    m = 4
-    n = 4
-    arr = [[0 for j in range(n)] for i in range(m)]
-    for i in range(min(m, n)):
-        arr[i][i] = 1
-    print(arr)
-'''
+
+        m = 4
+        n = 4
+        arr = [[0 for j in range(n)] for i in range(m)]
+        for i in range(min(m, n)):
+            arr[i][i] = 1
+        print(arr)
+
 
 o/p:
 
-    [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
+        [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
