@@ -272,7 +272,7 @@ ex.<br />
 4. Dimensions depends upn the number of subscripts used.<br />
 
 
-![arrayDispalying](https://github.com/tedy-art/Data-structure-and-algorithm/blob/main/img.png) <br />
+![array_intialization](https://github.com/tedy-art/Data-structure-and-algorithm/blob/main/img.png)
 
 <h6>Array Implementation : </h6> 
 1. Create a one-dimensional integer array and insert number to the maximum size provided until end of the array. Access the numbers inserted and then display the same as output???<br />
