@@ -270,7 +270,7 @@ ex.<br />
 2. Elements are stored one after another i.e. one 1D arrays inside other.<br />
 3. Two subscripts or indices are used, one row and one colomn.<br />
 4. Dimensions depends upn the number of subscripts used.<br />
-![img.png](img.png) <br />
+![arrayDispalying](https://github.com/tedy-art/Data-structure-and-algorithm/blob/main/img.png) <br />
 
 <h6>Array Implementation : </h6> 
 1. Create a one-dimensional integer array and insert number to the maximum size provided until end of the array. Access the numbers inserted and then display the same as output???<br />
