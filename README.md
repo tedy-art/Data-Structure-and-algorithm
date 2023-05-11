@@ -270,6 +270,8 @@ ex.<br />
 2. Elements are stored one after another i.e. one 1D arrays inside other.<br />
 3. Two subscripts or indices are used, one row and one colomn.<br />
 4. Dimensions depends upn the number of subscripts used.<br />
+
+
 ![arrayDispalying](https://github.com/tedy-art/Data-structure-and-algorithm/blob/main/img.png) <br />
 
 <h6>Array Implementation : </h6> 
