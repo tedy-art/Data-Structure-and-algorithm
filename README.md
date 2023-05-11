@@ -225,17 +225,17 @@ o/p:<br />
     
     'Volvo'
 
-<h6>Applications of array : </h6>
-1. Storing information - linear fashion.
-2. Suitable for applications that require frequent searching.
+<h6>Applications of array : </h6><br />
+1. Storing information - linear fashion.<br />
+2. Suitable for applications that require frequent searching.<br />
 
 <h6>Declaration an initialization of arrays : </h6>
-1. Array declaration:
-    * Datatypes varname[size];
-2. Can also do declaration and initialization at once:
-    * Datatypes varname[] = {ele1, ele2, ele3};
+1. Array declaration:<br />
+    * Datatypes varname[size];<br />
+2. Can also do declaration and initialization at once:<br />
+    * Datatypes varname[] = {ele1, ele2, ele3};<br />
    
-ex.
+ex.<br />
 
 <table>
     <th>1</th>
@@ -245,8 +245,8 @@ ex.
     <th>5</th>
 </table>
 
-* 0 to 4 indexing start from 
-* 1 to 5 are storing data/element
+* 0 to 4 indexing start from <br />
+* 1 to 5 are storing data/element<br />
 
 <table>
     <th>1</th>
@@ -263,17 +263,17 @@ ex.
     </tr>
 </table>
 
-* 100 to 116 are address of element which are store in arrays
+* 100 to 116 are address of element which are store in arrays<br />
 
-<h6>2- Dimensional Array -</h6>
-1. 2D can be related to a table or matrix.
-2. Elements are stored one after another i.e. one 1D arrays inside other.
-3. Two subscripts or indices are used, one row and one colomn.
-4. Dimensions depends upn the number of subscripts used.
-![img.png](img.png) 
+<h6>2- Dimensional Array -</h6><br />
+1. 2D can be related to a table or matrix.<br />
+2. Elements are stored one after another i.e. one 1D arrays inside other.<br />
+3. Two subscripts or indices are used, one row and one colomn.<br />
+4. Dimensions depends upn the number of subscripts used.<br />
+![img.png](img.png) <br />
 
 <h6>Array Implementation : </h6> 
-1. Create a one-dimensional integer array and insert number to the maximum size provided until end of the array. Access the numbers inserted and then display the same as output???
+1. Create a one-dimensional integer array and insert number to the maximum size provided until end of the array. Access the numbers inserted and then display the same as output???<br />
 
 
     print("How many elements to store inside the array", end="")
