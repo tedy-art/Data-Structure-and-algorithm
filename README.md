@@ -334,3 +334,60 @@ and then sets the diagonal elements to the value 1
 o/p:
 
         [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
+
+<h6>Delete Operation</h6>
+
+
+    print(end="Enter the size of array : ")
+    tot = int(input())
+    arr = []
+    print(end="Enter "+str(tot)+" elements: ")
+    for i in range(tot):
+        arr.append(input())
+    print(arr)
+
+    print(end="\n Enter the value to delete : ")
+    val = input()
+    if val in arr:
+        arr.remove(val)
+        print("\n The new Array is : ")
+        for i in range(tot - 1):
+            print(end=arr[i] + " ")
+    else:
+        print("\n Element doesn't exist in the array!")
+
+<h6>Sort Operations -</h6>
+
+
+    # Define the original array
+    arr = [10, 22, 38, 27, 11]
+    
+    # Initialize a variable to use for swapping array elements
+    temp = 0
+    
+    # Displaying elements of original array
+    print("Elements of original array : ")
+    for i in range(0, len(arr)):
+        print(arr[i], end=" ")
+    
+    # sort the array in ascending order
+    for i in range(0, len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                # Swap the elements using the temporary variable
+                temp = arr[i]
+                arr[i] = arr[j]
+                arr[j] = temp
+    print()
+    
+    # Displaying elements of the array after sorting
+    print("Elements of array sorted in ascending order : ")
+    for i in range(0, len(arr)):
+        print(arr[i], end=" ")
+
+o/p:
+
+    Elements of original array : 
+    10 22 38 27 11 
+    Elements of array sorted in ascending order : 
+    10 11 22 27 38
