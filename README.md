@@ -203,7 +203,9 @@ o/p:
 4. enclosed with {}.<br />
 
 
-<h5>Array Data Structure :-</h5>
+<h2>Array Data Structure :-</h2>
+
+
 <h6>What is array??</h6>
 1. Linear Data structure<br />
 2. Contiguous memory locations<br />
@@ -393,3 +395,58 @@ o/p:
     10 22 38 27 11 
     Elements of array sorted in ascending order : 
     10 11 22 27 38
+
+<h6>Search Array - </h6>
+    
+    # Search element in array
+    
+    import array
+    
+    arr = array.array('i', [1, 2, 3, 1, 2, 5])
+    print("The new created array is :", end=" ")
+    for i in range(0, 6):
+        print(arr[i], end=" ")
+    print("\r")
+    print("The index 1st occurrence of 2 is : ", end=" ")
+    print(arr.index(2))
+    
+    print("The index 1st occurrence of 1 is : ", end=" ")
+    print(arr.index(1))
+
+o/p:
+
+    The new created array is : 1 2 3 1 2 5 
+    The index 1st occurrence of 2 is :  1
+    The index 1st occurrence of 1 is :  0
+
+<h6>Advantages of Array : </h6>
+1. Random access element.<br />
+2. Easy sorting and iteration.<br />
+3. Replacement of multiple variables.<br />
+
+<h6>Disadvantages of Array : </h6>
+1. Size is fixed.<br />
+2. Difficult to insert and delete.<br />
+3. If Capacity us more and occupancy less, most of the array get wasted.<br />
+4. Needs contiguous memory.<br />
+
+<h2>Stack Data Structure</h2>
+<h5>Agenda : </h5>
+<table>
+    <tr>
+        <th>Sr. no</th>
+        <th>Topics</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Introduction of Stack</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Functions associated with Stack</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Implementation of stack</td>
+    </tr>
+</table>
