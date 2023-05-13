@@ -470,14 +470,28 @@ o/p:
 </table>
 push()-->
 
+
 <table>
-    <tr><td>15</td></tr>
-    <tr><td>11</td></tr>
-    <tr><td>89</td></tr>
-    <tr><td>67</td></tr>
-    <tr><td>45</td></tr>
-    <tr><td>23</td></tr>
+    <tr>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>89</td>
+    </tr>
+    <tr>
+        <td>67</td>
+    </tr>
+    <tr>   
+        <td>45</td>
+    </tr>
+    <tr>
+        <td>23</td>
+    </tr>
 </table>
+
 
 <h6>LIFO</h6> pop()--> 15 
 
