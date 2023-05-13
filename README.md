@@ -515,14 +515,14 @@ Give reference of last element present in stack.<br />
 returns true for an empty stack<br />
 
 <h5>Several ways to implementation stack in python : </h5>
-1. list
-2. collections.deque
-3. queue.LifeQueue
+1. list<br />
+2. collections.deque<br />
+3. queue.LifeQueue<br />
 
 <h5>Implementation using list : </h5>
-1. List in python can be used as stack.
-2. append()- It is used to insert the element.
-3. pop()- It is used to remove the last element.
+1. List in python can be used as stack.<br />
+2. append()- It is used to insert the element.<br />
+3. pop()- It is used to remove the last element.<br />
 
 <h6>logic :</h6>
 
@@ -553,8 +553,8 @@ o/p:
     ['welcome']
 
 <h5> Implementation using collection.deque :</h5>
-1. Stack in python are crated by the collection module which provides deque class.
-2. append() and pop() operations are faster in deque as compare to list.
+1. Stack in python are crated by the collection module which provides deque class.<br />
+2. append() and pop() operations are faster in deque as compare to list.<br />
 
 <h6>Logic :</h6>
 
