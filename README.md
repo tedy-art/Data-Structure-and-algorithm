@@ -471,12 +471,12 @@ o/p:
 push()-->
 
 <table>
-    <tr>15</tr>
-    <tr>11</tr>
-    <tr>89</tr>
-    <tr>67</tr>
-    <tr>45</tr>
-    <tr>23</tr>
+    <tr><td>15</td></tr>
+    <tr><td>11</td></tr>
+    <tr><td>89</td></tr>
+    <tr><td>67</td></tr>
+    <tr><td>45</td></tr>
+    <tr><td>23</td></tr>
 </table>
 
 <h6>LIFO</h6> pop()--> 15 
