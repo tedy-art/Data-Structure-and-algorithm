@@ -450,3 +450,120 @@ o/p:
         <td>Implementation of stack</td>
     </tr>
 </table>
+
+<h5>Introduction of Stack : </h5>
+1. Linear data structure.<br />
+2. It follows Last in first out(LIFO) order.<br />
+3. Insertion and removal of the element has done at one point.<br />
+4. Push is used for inserting an element in a stack.<br />
+5. pop is used to removal an element in a stack<br />
+
+<table>
+    <tr>
+        <td>23</td>
+        <td>45</td>
+        <td>67</td>
+        <td>89</td>
+        <td>11</td>
+        <td>15</td>
+    </tr>
+</table>
+push()-->
+
+<table>
+    <tr>15</tr>
+    <tr>11</tr>
+    <tr>89</tr>
+    <tr>67</tr>
+    <tr>45</tr>
+    <tr>23</tr>
+</table>
+
+<h6>LIFO</h6> pop()--> 15 
+
+push() = Inserting Element.<br />
+pop() = Removing Element.<br />
+
+<h5>Function associated with stack : </h5><br />
+<h6>1.push(x) : </h6>
+It is used insert the element 'x' at the end of a stack.<br />
+
+<h6>2.pop() : </h6>
+It is used to remove the top most / last element of a stack.<br />
+
+<h6>3.size() : </h6>
+Gives the size/ length of a stack.<br />
+
+<h6>4.top() : </h6>
+Give reference of last element present in stack.<br />
+
+<h6>5.empty() : </h6>
+returns true for an empty stack<br />
+
+<h5>Several ways to implementation stack in python : </h5>
+1. list
+2. collections.deque
+3. queue.LifeQueue
+
+<h5>Implementation using list : </h5>
+1. List in python can be used as stack.
+2. append()- It is used to insert the element.
+3. pop()- It is used to remove the last element.
+
+<h6>logic :</h6>
+
+    stack = []
+    stack.append("abc")
+    print(stack.pop())
+
+<h6>Implementation using list :</h6>
+    
+    stack = []
+    stack.append("Welcome")
+    stack.append("to")
+    stack.append("great learning")
+    print(stack)
+    print(stack.pop())
+    
+    print(stack)
+    print(stack.pop())
+    
+    print(stack)
+
+o/p:
+
+    ['welcome', 'to', 'great learning']
+    great learning
+    ['welcome', 'to']
+    to
+    ['welcome']
+
+<h5> Implementation using collection.deque :</h5>
+1. Stack in python are crated by the collection module which provides deque class.
+2. append() and pop() operations are faster in deque as compare to list.
+
+<h6>Logic :</h6>
+
+    from collections import deque
+    stack = deque()
+    stack.append("abc")
+    print(stack.pop())
+
+<h6>Implementation using deque :</h6>
+
+    from collections import deque
+    stack = deque()
+    stack.append("x")
+    print(stack)
+    stack.append("y")
+    stack.append("z")
+    print(stack)
+    print(stack.pop())
+    print(stack)
+
+o/p:
+
+    deque(['x'])
+    deque(['x', 'y', 'z'])
+    z
+    deque(['x', 'y'])
