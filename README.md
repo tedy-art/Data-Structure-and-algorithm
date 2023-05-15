@@ -581,3 +581,64 @@ o/p:
     deque(['x', 'y', 'z'])
     z
     deque(['x', 'y'])
+
+
+<h5> Implementation using queue :</h5>
+1. Queue module contains the LIFO function.<br />
+2. It is having some additional functions and work same as stack.<br />
+3. put() function is used to insert the data in queue.<br />
+4. get() function is used to remove the element.
+
+<h6>Functions available in queue module :</h6>
+<h6>1.get() : </h6>
+It is used to remove the element from the queue.
+
+<h6>2.maxsize() : </h6>
+Used to put the maximum number of items allowed in queue.<br />
+
+<h6>3.empty() : </h6>
+It returns true, when queue is empty, else false.<br />
+
+<h6>4.full() : </h6>
+when queue is full returns True.<br />
+
+<h6>5.put(x) : </h6>
+It is used to insert x in queue.<br />
+
+<h6>5.qsize() : </h6>
+Gives the size of a queue.<br />
+
+get() = insert element.<br />
+put() = remove element.<br />
+
+<h6> Implementation using queue :</h6>
+
+    # Implementation using queue
+    from queue import LifoQueue
+
+    # assign LifoQueue() function to stack variable
+    stack = LifoQueue(maxsize = 3) # maxsize of stack is 3
+    stack.put(2) # insert 1st element
+    stack.put(3) # insert 2st element
+    stack.put(4) # insert 3st element
+    print(stack.qsize()) # size of stack
+    print(stack.full()) # True (stack is full)
+    print(stack.get()) # remove
+    print(stack.full()) # false (stack is not full)
+
+o/p:
+
+    3
+    True
+    4
+    False
+
+
+<h5>Advantages of Stack :</h5>
+1. Maintains data in LIFO manner.
+2. The Last elements are ready for use.
+3. All operations are of O(1) complexity.
+
+<h5>Disadvantages of Stack :</h5>
+1. Manipulation is restricted to the top of the stack.
+2. Not much flexible.
