@@ -635,10 +635,10 @@ o/p:
 
 
 <h5>Advantages of Stack :</h5>
-1. Maintains data in LIFO manner.
-2. The Last elements are ready for use.
-3. All operations are of O(1) complexity.
+1. Maintains data in LIFO manner.<br />
+2. The Last elements are ready for use.<br />
+3. All operations are of O(1) complexity.<br />
 
 <h5>Disadvantages of Stack :</h5>
-1. Manipulation is restricted to the top of the stack.
-2. Not much flexible.
+1. Manipulation is restricted to the top of the stack.<br />
+2. Not much flexible.<br />
